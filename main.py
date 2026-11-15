@@ -7,7 +7,7 @@ PROTOCOL = "agent-fun/bars-replay/v1"
 
 
 class Strategy:
-    """Buy a statistically large discount; exit on normalization or risk limit.
+    """Buy a large rolling-mean discount; exit at a cost-aware target or stop.
 
     All indicators use closes already received. No seed, timestamp, phase,
     dataset identifier or terminal horizon enters a trading decision.
