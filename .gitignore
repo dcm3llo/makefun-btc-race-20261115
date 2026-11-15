@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+READY.json
+requirements.json
+*.log
+*.tar.gz
+*.ndjson
+*.ndjson.gz
+.env
+node_modules/
+dataset/
+harness/
